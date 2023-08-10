@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&family=Ysabeau+Office:ital,wght@0,100;0,500;1,300&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <title>Kristalli</title>
+
+        <link rel="stylesheet" href="../assets/css/normalize.css">
+        <link rel="stylesheet" href="../assets/css/reset.css">
+        <link rel="stylesheet" href="../assets/css/tela-index/cabecalho.css">
+        <link rel="stylesheet" href="../assets/css/tela-index/busca.css">
+            
+        <link rel="stylesheet" href="../assets/css/tela-login/sessao-from.css">
+        
+        <link rel="stylesheet" href="../assets/css/tela-index/contatos.css">
+        <link rel="stylesheet" href="../assets/css/tela-index/footer.css">
+    </head>
+    <body>
+        <header>
+            <nav class="cabecalho">
+                <a href="/index.html"> <img
+                        src="../assets/img/logo.kristalli.png"
+                        alt="logo da loja kristalli" class="cabecalho__logo"></a>
+
+                <div class="cabecalho__pesquisar">
+
+                    <input type="search" placeholder="O que deseja encontrar?"
+                        id="pesquisar" class="pesquisar__input" data-pesquisa>
+                    <button class="pesquisar__botao" data-botao-pesquisa>
+
+                    </div>
+                </nav>
+            </header>
+
+            <main>
+
+                <section class="login">
+                    <h2 class="login__texto">Iniciar Sessão</h2>
+
+                    <form class="login-form">
+
+                        <label for="email"></label>
+                        <input type="email" placeholder="Escreva seu email"
+                            id="email" required class="login__input"><br>
+                      
+                        <label for="senha"></label>
+                        <input type="password" placeholder="Escreva sua senha"
+                            id="senha" required class="login__input">
+                        <br>
+
+                        <button type="button" id="loginButton" class="entrar">Entrar</button>
+                    </form>
+
+                </section>
+
+                <section class="contatos">
+                    <div class="contato-di">
+                        <div class="contatos-div">
+                            <img src="../assets/img/logo.kristalli.png"
+                                alt="logo da loja" class="contato__logo">
+                            <nav class="nav-lista">
+                                <ul class="contato__lista">
+                                    <li><a href="#">Quem somos nós</a></li>
+                                    <li><a href="#">Política de Privacidade</a></li>
+                                    <li><a href="#">Programa Fidelidade</a></li>
+                                    <li><a href="#">Nossas Lojas</a></li>
+                                    <li><a href="#">Quero ser Franquiado</a></li>
+                                    <li><a href="#">Anuncie aqui</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <form class="contato__form">
+                            <h4>Fale conosco</h4>
+                            <label for="nomesobrenome"></label>
+                            <input type="text" placeholder="Nome" required
+                                class="contato__input">
+
+                            <label for="mensagem"></label>
+                            <textarea cols="30" id="mensagem"
+                                class="contato__input"
+                                placeholder="Escreva sua mensagem" required></textarea>
+
+                            <button type="submit" class="enviar">Enviar Mensagem</button>
+
+                        </form>
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+                <p>&copy; Letícia S.<br>
+                    2023 Meu E-commerce. Todos os direitos reservados.</p>
+            </footer>
+            <script src="../js/botoaoLogin.js"></script>
+        </body>
+    </html>

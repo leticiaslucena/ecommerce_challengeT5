@@ -1,0 +1,48 @@
+.add-produto {
+    background-color: rgba(241, 241, 241, 0.653);
+    padding: 0; 
+    margin: 0; 
+
+}
+.add-produto__titulo {
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: center;
+   
+}
+.formula{
+	padding: 40px;
+    text-align: center;
+}
+.formula input {
+    margin: 0 0 10px;
+	padding: 10px 25px;
+	width: 50%;
+}
+.add__formu {
+    border: none;
+}
+.add__bot {
+    background: blue;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+	padding: 20px;
+}
+@media screen and (min-width: 0) {
+    .add__bot.value {
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .formula input {
+        width: 60% ;
+    }
+    .formula input::placeholder {
+        font-size: 16px;
+    }
+    .add__bot {
+        font-size: 14px;
+
+    }
+}

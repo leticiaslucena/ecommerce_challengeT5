@@ -1,0 +1,46 @@
+{
+  "produtos": [
+    {
+      "url": "http://127.0.0.1:5502/assets/img/blusa01.jpg",
+      "nome": "camisa",
+      "preco": "100",
+      "descricao": "camisa Brim",
+      "id": 1
+    },
+    {
+      "url": "http://127.0.0.1:5502/assets/img/blayzer1.jpg",
+      "nome": "blayzer",
+      "preco": "334",
+      "descricao": "blayzer",
+      "id": 2
+    },
+    {
+      "url": "http://127.0.0.1:5502/assets/img/vestidos.jpg",
+      "nome": "vedtido de renda",
+      "preco": "2000",
+      "descricao": "vestido de festa todo em renda",
+      "id": 4
+    },
+    {
+      "url": "http://127.0.0.1:5502/assets/img/camisa.jpg",
+      "nome": "camisa jeans",
+      "preco": "190",
+      "descricao": "blusa em jeans com manga comprida",
+      "id": 5
+    },
+    {
+      "url": "http://127.0.0.1:5502/assets/img/colete.jpg",
+      "nome": "colete",
+      "preco": "1000",
+      "descricao": "colete de luxo em xadrez",
+      "id": 6
+    },
+    {
+      "url": "http://127.0.0.1:5502/assets/img/casacodefrio.jpg",
+      "nome": "casaco de frio",
+      "preco": "200",
+      "descricao": "casaco de lã",
+      "id": 7
+    }
+  ]
+}

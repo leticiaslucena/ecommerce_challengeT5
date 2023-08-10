@@ -1,0 +1,86 @@
+.cabecalho__pesquisar {
+  display: flex;
+  justify-content: center;
+}
+
+.pesquisar__input {
+  width: 250px;
+  background-color: #dcdede;
+  height: 32px;
+  border-style: none;
+  font-size: 16px;
+  padding: 3px 8px;
+
+}
+
+.pesquisar__botao {
+  background-image: url(/assets/img/icons/lupa.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgb(211, 211, 211);
+  background-color: #dcdede;
+  border-left: none;
+  padding: 15px 15px;
+  cursor: pointer;
+}
+
+.pesquisar__input::placeholder {
+  font-style: italic;
+  font-size: 12px;
+}
+
+/*Botão de login*/
+.bot {
+  background-color: white;
+  border-color: rgba(25, 77, 248, 0.979);
+}
+
+.bot a {
+  text-decoration: none;
+}
+
+.bot:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 760px) {
+  .pesquisar__input {
+    display: none;
+  }
+
+  .pesquisar__botao {
+    background-color: #ffffff;
+    border: none;
+  }
+
+  .bot {
+    padding: 3px 7px 3px 7px;
+    margin-right: 20%;
+  }
+
+}
+
+@media screen and (min-width: 765px) {
+  .pesquisar__input {
+    background-color: #dcdede;
+    margin-left: 30px;
+    width: 200px;
+    padding: 8px;
+  }
+
+  .bot {
+    padding: 5px 20px 5px 20px;
+  }
+
+}
+
+@media screen and (max-width: 1440px) {
+  .pesquisar__input {
+    width: 300px;
+  }
+
+  .bot {
+    padding: 5px 35px 5px 35px;
+  }
+}

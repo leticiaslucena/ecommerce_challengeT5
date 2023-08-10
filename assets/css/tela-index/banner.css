@@ -1,0 +1,60 @@
+.banner__img {
+    opacity: calc(0.4);
+    background: center cover;
+    width: 100%;
+}
+
+.banner__titulo  {
+    position: absolute;
+    padding: 50px;
+    
+   
+}
+
+.banner__descricao {
+    position: absolute;
+    padding: 52px;
+    
+    
+}
+
+
+@media screen and (min-width: 0) {
+    .banner__img{
+        height: 140px;
+    }
+    .banner__titulo{
+        top: 45px;
+        font-size: 18px;
+    }
+
+    .banner__descricao {
+        top: 65px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__img {
+        height: 300px;
+    }
+    .banner__titulo{
+        font-size: 24px;
+        top:20%;
+    }
+    .banner__descricao {
+        font-size: 20px;
+        top: 22%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner__titulo{
+        font-size: 28px;
+        
+    }
+    .banner__descricao {
+        font-size: 20px;
+       
+    }
+}

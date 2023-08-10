@@ -1,0 +1,43 @@
+.adc-produto {
+    background-color: rgba(241, 241, 241, 0.653);
+    padding: 0; 
+    margin: 0; 
+
+}
+.adc-produto__titulo {
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+   
+}
+.formula{
+	padding: 40px;
+    text-align: center;
+}
+.formula input {
+    margin: 0 0 10px;
+	padding: 10px 25px;
+	width: 50%;
+}
+.adc__formu {
+    border: none;
+}
+.adc__bot {
+    background: blue;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+	padding: 20px;
+}
+
+@media screen and (max-width: 769px) {
+    .formula input {
+        width: 60% ;
+    }
+    .formula input::placeholder {
+        font-size: 12px;
+    }
+    .adc__bot {
+        font-size: 14px;
+    }
+}

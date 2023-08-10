@@ -1,0 +1,46 @@
+.login {
+    background-color: rgba(214, 213, 214, 0.653);
+    padding: 0; 
+    margin: 0;
+}
+.login__texto {
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.login-form {
+    padding: 40px;
+    text-align: center;
+}
+
+.login-form input {
+    margin: 0 0 10px;
+	padding: 10px 25px;
+	width: 40%;
+}
+
+.login__input {
+    border: none;
+    border-radius: 5px;  
+}
+.login__input::placeholder{
+    font-size: 16px;
+}
+.entrar {
+    background: blue;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+	padding: 10px;
+    width: 40%;
+}
+@media screen and (max-width: 800px) {
+    .entrar {
+        padding: 5px;
+        width: 50%;
+    }
+
+    .login-form label {
+        margin-left: 20px;
+    }
+}

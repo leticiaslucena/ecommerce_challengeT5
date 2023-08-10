@@ -1,0 +1,95 @@
+.add-produto {
+    padding-top: 20px;
+    margin-right: 30px;
+}
+
+.titulo-produtos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+
+/*BOTAO ADICIONAR PRODUTO*/
+.adci-produto {
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.novo-produto-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.produto__lista {
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+}
+
+.produto__lista img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.produto__lista h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.produto__lista p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.produto__imagem-container {
+    position: relative;
+}
+
+.produto__icones {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.produto__icone-editar {
+    background-image: url(/assets/img/icons/editar.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 4px;
+}
+.produto__icone-excluir {
+    background-image: url(/assets/img/icons/deletar.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 760px) {
+    .produto__lista {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .titulo-produtos h2 {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+}
